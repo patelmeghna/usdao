@@ -1,0 +1,197 @@
+
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #EFEFEF !default;
+$gray-400: #d9d9d9 !default;
+$gray-500: #979797 !default;
+$gray-600: #6c757d !default;
+$gray-700: #707070 !default;
+$gray-800: #343a40 !default;
+$gray-900: #2E2E2E !default;
+$black:    #000 !default;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+
+// scss-docs-start color-variables
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-color-variables
+$primary:       #F85E11;
+$secondary:     #F5F6FA;
+$orange:        #F88011;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "gray-300":   $gray-300,
+  "gray-900":   $gray-900,
+  "gray-500":   $gray-500,
+  "gray-700":   $gray-700,
+  "gray-400":   $gray-400,
+  "orange":     $orange
+) !default;
+
+$theme-colors-light: (
+  "light-primary":    rgba($color: $primary, $alpha: 0.15),
+  "light-secondary":  rgba($color: $secondary, $alpha: 0.15),
+  "light-success":    rgba($color: $success, $alpha: 0.15),
+  "light-info":       rgba($color: $info, $alpha: 0.15),
+  "light-warning":    rgba($color: $warning, $alpha: 0.15),
+  "light-danger":     rgba($color: $danger, $alpha: 0.15),
+  "light-light":      rgba($color: $light, $alpha: 0.15),
+  "light-dark":       rgba($color: $dark, $alpha: 0.15),
+  "light-gray-300":   rgba($color: $gray-300, $alpha: 0.15),
+  "light-gray-900":   rgba($color: $gray-900, $alpha: 0.15),
+  "light-gray-500":   rgba($color: $gray-500, $alpha: 0.15),
+  "light-gray-700":   rgba($color: $gray-700, $alpha: 0.15),
+  "light-orange":     rgba($color: $orange, $alpha: 0.15)
+) !default;
+
+$number: (
+    "35":   35px,
+    "55":   55px,
+    "50":   50px,
+    "77":   77px
+) !default;
+
+$font-size: (
+    "12":    12px,
+    "13":    13px,
+    "14":    14px,
+    "15":    15px,
+    "16":    16px,
+    "17":    17px,
+    "19":    19px,
+    "20":    20px,
+    "21":    21px,
+    "22":    22px,
+    "23":    23px,
+    "24":    24px,
+    "26":    26px,
+    "28":    28px,
+    "27":    27px,
+    "18":   18px,
+    "80":   80px,
+    "100":  100px,
+    "30":   30px,
+    "32":   32px,
+    "33":   33px,
+    "35":   35px,
+    "36":   36px,
+    "25":   25px,
+    "50":   50px,
+    "55":   55px,
+    "47":   47px,
+    "45":   45px,
+    "40":   40px,
+    "42":   42px,
+    "70":   70px,
+    "82":   82px,
+    "95":   95px
+) !default;
+
+$font-weight: (
+    "100":  100,
+    "200":  200,
+    "500":  500,
+    "600":  600,
+    "800":  800,
+    "900":  900
+) !default;
+
+$padding: (
+    "50":   3.125rem,
+    "30":   1.875rem,
+    "90":   5.625rem,
+    "10":   0.625rem,
+    "80":   5rem,
+    "100":  100px,
+    "150":  150px,
+    "200":  200px
+) !default;
+
+$line-height: (
+    "20":   20px,
+    "25":   25px,
+    "32":   32px,
+    "35":   35px,
+    "100":  100px,
+    "133":  133px,
+    "127":  127px
+) !default;
+
+$radius: (
+    "5":    5px,
+    "10":   10px,
+    "34":   34px,
+    "20":   20px,
+    "25":   25px,
+    "40":   40px
+) !default;
+
+$width-height: (
+    "80":     80%,
+    "60":     60%,
+    "90":     90%,
+    "fit":    fit-content,
+    "30":     30px,
+    "40":     40px,
+    "45":     45px,
+    "55":     55px,
+    "95":     95px,
+    "100px":  100px,
+    "150":    150px,
+    "200":    200px
+) !default;
+
+$height: (
+  "60vh":   60vh,
+  "70vh":   70vh,
+  "80vh":   80vh,
+  "85vh":   85vh,
+  "87vh":   87vh,
+  "90vh":   90vh
+) !default;
+
+$card-bg:                           $secondary;
+$card-border-color:                 none !default;
+$card-border-radius:                34px !default;
+$dropdown-min-width:                auto;

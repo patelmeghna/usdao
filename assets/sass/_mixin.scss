@@ -1,0 +1,95 @@
+@each $value, $glyph in $number {
+    .h-#{$value} {
+        height: $glyph;
+    }
+    .w-#{$value} {
+        width: $glyph;
+    }
+}
+
+@each $value, $glyph in $font-size {
+    .fs-#{$value} {
+        font-size: $glyph;
+    }
+}
+
+@each $value, $glyph in $font-weight {
+    .fw-#{$value} {
+        font-weight: $glyph;
+    }
+}
+
+@each $value, $glyph in $padding {
+    
+
+    .py-#{$value} {
+        padding: $glyph 0;
+    }
+
+    .px-#{$value} {
+        padding: 0 $glyph;
+    }
+
+    .ps-#{$value} {
+        padding-left: $glyph;
+    }
+
+    .pe-#{$value} {
+        padding-right: $glyph;
+    }
+
+    .p-#{$value} {
+        padding: $glyph;
+    }
+}
+
+@each $value, $glyph in $line-height {
+    .lh-#{$value} {
+        line-height: $glyph;
+    }
+}
+
+@each $value, $glyph in $radius {
+    .rounded-#{$value} {
+        border-radius: $glyph;
+    }
+}
+
+@each $value, $glyph in $theme-colors {
+    .border-#{$value} {
+        border: $border-width solid $glyph;
+    }
+}
+
+@each $value, $glyph in $theme-colors {
+    .badge-#{$value} {
+        background: $glyph;
+    }
+}
+
+@each $value, $glyph in $theme-colors-light {
+    .border-#{$value} {
+        border: $border-width solid $glyph;
+    }
+}
+
+@each $value, $glyph in $theme-colors-light {
+    .bg-#{$value} {
+        background: $glyph;
+    }
+}
+
+@each $value, $glyph in $width-height {
+    .w-#{$value} {
+        width: $glyph !important;
+    }
+    .h-#{$value} {
+        height: $glyph !important;
+    }
+}
+
+@each $value, $glyph in $height {
+    .h-#{$value} {
+        height: $glyph !important;
+    }
+}

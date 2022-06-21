@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="241.601" height="79.67" viewBox="0 0 241.601 79.67">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f88311"/>
+      <stop offset="1" stop-color="#f83811"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_12483" data-name="Group 12483" transform="translate(-289.399 -3801)">
+    <text id="ASSET" transform="translate(369 3865)" fill="#2e2e2e" font-size="59" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ASSET</tspan></text>
+    <g id="_2185268333472" transform="translate(289.399 3810)">
+      <path id="Path_7118" data-name="Path 7118" d="M5954.721,0l15.3,8.834,15.3,8.834V53l-15.3,8.834-15.3,8.834-15.3-8.834L5924.12,53V17.667l15.3-8.834Z" transform="translate(-5924.12)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <path id="Path_7119" data-name="Path 7119" d="M7092.857,1447.586v7.752l4.787,4.786v-12.539a12.227,12.227,0,0,0-24.453,0v10.146a2.394,2.394,0,0,0,4.787,0v-2.987h6.147a2.4,2.4,0,0,0,2.393-2.393h0a2.4,2.4,0,0,0-2.393-2.393h-6.147v-2.372a7.44,7.44,0,1,1,14.879,0Z" transform="translate(-7054.816 -1412.407)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
